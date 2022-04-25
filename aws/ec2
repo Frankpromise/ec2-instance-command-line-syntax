@@ -1,3 +1,0 @@
-# launch an instance in the private subnet
-
-aws ec2 run-instances --image-id ami-00db75007d6c5c578 --instance-type t2.micro --security-group-ids sg-06f58647298989362 --subnet-id subnet-05717cf75cb18efce --key-name web
